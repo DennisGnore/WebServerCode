@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_Bajour.css') }}">
+    <title>Bajour</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bajour</h1>
+        <div class="button-container">
+            <button id="on-button">Accendi</button>
+            <button id="off-button">Spegni</button>
+            <button id="rainbow-button">Arcobaleno</button>
+            <button id="strobe-button">Stroboscopico</button>
+        </div>
+        <div class="color-buttons">
+            <h2>Colori</h2>
+            <button class="color-button" data-color="0">Rosso</button>
+            <button class="color-button" data-color="1">Verde</button>
+            <button class="color-button" data-color="2">Blu</button>
+            <button class="color-button" data-color="3">Giallo</button>
+            <button class="color-button" data-color="4">Ciano</button>
+            <button class="color-button" data-color="5">Magenta</button>
+            <button class="color-button" data-color="6">Arancione</button>
+            <button class="color-button" data-color="7">Indaco</button>
+            <button class="color-button" data-color="8">Viola</button>
+            <button class="color-button" data-color="9">Rosa</button>
+        </div>
+        <div class="settings">
+            <h2>Impostazioni</h2>
+            <h3>Luminosita</h3>
+            <button class="brightness-button" data-value="0">0</button>
+            <button class="brightness-button" data-value="25">25</button>
+            <button class="brightness-button" data-value="50">50</button>
+            <button class="brightness-button" data-value="75">75</button>
+            <button class="brightness-button" data-value="100">100</button>
+            <button class="brightness-button" data-value="125">125</button>
+            <button class="brightness-button" data-value="150">150</button>
+            <button class="brightness-button" data-value="175">175</button>
+            <button class="brightness-button" data-value="200">200</button>
+            <button class="brightness-button" data-value="225">225</button>
+            <button class="brightness-button" data-value="255">255</button>
+
+            <h3>Velocita Effetti</h3>
+            <button class="speed-button" data-value="10">1</button>
+            <button class="speed-button" data-value="9">2</button>
+            <button class="speed-button" data-value="8">3</button>
+            <button class="speed-button" data-value="7">4</button>
+            <button class="speed-button" data-value="6">5</button>
+            <button class="speed-button" data-value="5">6</button>
+            <button class="speed-button" data-value="4">7</button>
+            <button class="speed-button" data-value="3">8</button>
+            <button class="speed-button" data-value="2">9</button>
+            <button class="speed-button" data-value="1">10</button>
+        </div>
+        <div id="log"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script_Bajour.js') }}"></script>
+</body>
+</html>

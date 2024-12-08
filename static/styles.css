@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #333333;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white; /*colore testo "Dispositivi" */
+    font-size: 24px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Modificato per essere in colonna su mobile */
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Limitata la larghezza massima per adattarsi meglio */
+    margin-left: 20px; /* Sposta l'intero blocco verso destra */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Aggiunto margine per spaziatura tra colonne */
+}
+
+button {
+    margin: 10px;
+    padding: 12px 20px; /* Aumentata la padding per maggiore cliccabilità */
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Angoli arrotondati per un aspetto più moderno */
+    cursor: pointer;
+    width: 100%; /* Aumentata la larghezza per adattarsi al contenitore */
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.led {
+    width: 100px;
+    height: 5px;
+    border-radius: 10%;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%; /* Aumentata la larghezza per allinearsi al contenitore */
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.responseHeader {
+	width: 300px;
+	max-width: 300px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+#responseContainer {
+    width: 300px;
+    max-width: 300px;
+    margin: 10px 0; /* Centrato e separato dai margini */
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Aggiunta ombreggiatura per profondità */
+}
+
+#responseBox {
+    background-color: black;
+    color: #00FF00;
+    max-height: 150px; /* Ridotto per adattarsi meglio a mobile */
+    overflow-y: auto;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.nav-button {
+	width: 200px;
+	height: 10;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query per schermi più grandi */
+@media (min-width: 600px) {
+    .button-container {
+        flex-direction: row;
+        justify-content: center; /* Centrato orizzontalmente */
+        margin-left: 40px; /* Maggiore margine per spostare il blocco verso destra */
+    }
+
+    .column {
+        margin: 0 10px; /* Margine per spaziatura tra colonne */
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    #responseContainer {
+        max-width: none;
+    }
+}
+
+.redirect-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Spaziatura tra i pulsanti */
+    margin: 20px 0; /* Spaziatura sopra e sotto */
+}

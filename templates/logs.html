@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='log_styles.css') }}">
+</head>
+<body>
+    <h1>Pagina dei Log</h1>
+    <button class="nav-button" onclick="window.location.href='https://raspberrypi5casa.ddns.net/'">Torna alla Pagina Principale</button>
+    
+    <div id="logContainer">
+        <div class="responseHeader">COMANDI INVIATI</div>
+        <div id="logBox">
+            {% for log in logs %}
+            <div class="logItem">{{ log }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="responseContainer">
+        <div class="responseHeader">COMANDI RICEVUTI</div>
+        <div id="responseBox">
+            {% for response in response_logs %}
+            <div class="responseItem">{{ response }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='log_script.js') }}"></script>
+</body>
+</html>
