@@ -1,0 +1,1995 @@
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff8c428710>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://127.0.0.1:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:01] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:01] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:01] "GET /status?t=1729337821053 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 13:37:01] "GET /status?t=1729337821051 HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:28] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:28] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:29] "GET /status?t=1729340728140 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:29] "GET /status?t=1729340728142 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:35] "GET /status?t=1729340734755 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:25:35] "GET /status?t=1729340734754 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:27] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:28] "GET /status?t=1729341238102 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 14:33:28] "GET /status?t=1729341238100 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:43] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:44] "GET /status?t=1729343353993 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:44] "GET /status?t=1729343353995 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:08:45] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "GET /status?t=1729344058503 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:28] "GET /status?t=1729344058502 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:29] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:20:35] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:27] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:28] "GET /status?t=1729344297963 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:24:28] "GET /status?t=1729344297961 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:07] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:07] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:07] "GET /status?t=1729345777180 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:07] "GET /status?t=1729345777181 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:09] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 15:49:10] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:185.224.128.251 - - [19/Oct/2024 15:53:51] "[33mGET /web/function/init.js HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /command [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 190, in command
+    fetch_device_status()  # Aggiorna le variabili globali e aggiorna il display LCD
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 128, in fetch_device_status
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 17:17:31] "[35m[1mGET /command?cmd=ON1 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 18:54:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:185.242.226.109 - - [19/Oct/2024 19:45:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:29:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:29:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:31:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:31:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /command [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 190, in command
+    fetch_device_status()  # Aggiorna le variabili globali e aggiorna il display LCD
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 128, in fetch_device_status
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:03] "[35m[1mGET /command?cmd=OFF2 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:20] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:20] "GET /status?t=1729362740039 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:20] "GET /status?t=1729362740040 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:21] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:24] "GET /status?t=1729362744025 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:24] "GET /status?t=1729362744026 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:33] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:34] "GET /status?t=1729362753712 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:34] "GET /status?t=1729362753715 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:35] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:79.45.153.35 - - [19/Oct/2024 20:32:42] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed2e4c150>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 199, in <module>
+    @app.route('/command', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: command
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff006691d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:06] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffefdc3d850>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffefdc36590>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:09] "GET /status?t=1729781406541 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:09] "GET /status?t=1729781406540 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:15] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:15] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:21] "GET /command?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:21] "GET /command?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [24/Oct/2024 16:50:21] "GET /command?cmd=RAINBOW HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff9d4dda50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.165:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+Terminated
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fffaaf2d910>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+Terminated
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff4cf9dcd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:44] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:44] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:46] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:33:48] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:34:15] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:34:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:34:15] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:37.161.175.238 - - [25/Oct/2024 20:34:19] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:04] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:04] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:04] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:25] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:30] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:37] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:40] "GET /command_lamp?cmd=COLOR6 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:42] "GET /command_lamp?cmd=COLOR5 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:47] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:50] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:36:58] "GET /command_lamp?cmd=BRIGHTNESS:255 HTTP/1.1" 200 -
+INFO:werkzeug:82.52.178.1 - - [25/Oct/2024 20:37:02] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed80fdcd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed5e96210>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed5e9d510>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:18] "GET /status?t=1729895174667 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:18] "GET /status?t=1729895174669 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:22] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:23] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:30] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:33] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:38] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:26:57] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:27:05] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:27:28] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:28:04] "GET /command_lamp?cmd=BRIGHTNESS:50 HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:28:16] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.160.187.1 - - [26/Oct/2024 00:28:30] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "GET /status?t=1729951224353 HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:24] "GET /status?t=1729951224352 HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.7 - - [26/Oct/2024 16:00:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.7 - - [26/Oct/2024 16:00:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.7 - - [26/Oct/2024 16:00:27] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.7 - - [26/Oct/2024 16:00:28] "GET /status?t=1729951225270 HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:00:28] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.7 - - [26/Oct/2024 16:00:29] "GET /status?t=1729951225270 HTTP/1.1" 200 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 16:09:57] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:64.23.201.216 - - [26/Oct/2024 16:34:20] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 18:13:27] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+INFO:werkzeug:46.101.176.126 - - [26/Oct/2024 18:19:20] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:31.223.15.163 - - [26/Oct/2024 18:23:21] "GET / HTTP/1.0" 200 -
+INFO:werkzeug:79.2.138.251 - - [26/Oct/2024 18:40:10] "GET / HTTP/1.0" 200 -
+INFO:werkzeug:185.242.226.109 - - [26/Oct/2024 18:40:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:168.253.90.155 - - [26/Oct/2024 18:50:34] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+INFO:werkzeug:79.41.15.164 - - [26/Oct/2024 20:55:22] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.236.176.106 - - [26/Oct/2024 21:07:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:64.23.201.216 - - [26/Oct/2024 23:06:34] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+INFO:werkzeug:161.35.46.30 - - [26/Oct/2024 23:48:18] "[33mGET /.env HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:98.80.4.53 - - [27/Oct/2024 00:28:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:98.80.4.53 - - [27/Oct/2024 00:28:30] SSL error occurred: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:2546)
+INFO:werkzeug:157.245.69.67 - - [27/Oct/2024 02:08:17] "[33mGET /aaa9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:157.245.69.67 - - [27/Oct/2024 02:08:21] "[33mGET /aab8 HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:157.245.69.67 - - [27/Oct/2024 02:08:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:45.156.128.41 - - [27/Oct/2024 03:03:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:34.77.99.191 - - [27/Oct/2024 04:13:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:47.96.70.44 - - [27/Oct/2024 04:45:04] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.96.70.44 - - [27/Oct/2024 04:45:27] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+INFO:werkzeug:108.136.47.169 - - [27/Oct/2024 05:10:08] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+INFO:werkzeug:170.64.238.172 - - [27/Oct/2024 05:12:06] "[33mGET /.env HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.103 - - [27/Oct/2024 05:19:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.103 - - [27/Oct/2024 05:19:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:167.94.145.103 - - [27/Oct/2024 05:19:07] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.145.103 - - [27/Oct/2024 05:19:07] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.109 - - [27/Oct/2024 09:02:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.109 - - [27/Oct/2024 09:02:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:167.94.145.109 - - [27/Oct/2024 09:02:52] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.145.109 - - [27/Oct/2024 09:02:52] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+INFO:werkzeug:64.23.201.216 - - [27/Oct/2024 09:24:23] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.110 - - [27/Oct/2024 09:56:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:167.94.145.110 - - [27/Oct/2024 09:56:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:167.94.145.110 - - [27/Oct/2024 09:56:08] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.145.110 - - [27/Oct/2024 09:56:08] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff522bd910>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff5005d3d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff50056110>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:06] "GET /status?t=1730156943537 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:06] "GET /status?t=1730156943537 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:10] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:10] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:15] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:18] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:22] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:09:26] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:11] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:11] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:11] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:11] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:11] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:15] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:15] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:15] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:16] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:16] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:22] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:13:27] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:20] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:23] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:23] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:26] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:43] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:47] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:52] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:17:59] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:10] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:16] "GET /command_lamp?cmd=BRIGHTNESS:50 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:24] "GET /command_lamp?cmd=BRIGHTNESS:75 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:27] "GET /command_lamp?cmd=BRIGHTNESS:50 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:32] "GET /command_lamp?cmd=COLOR8 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:36] "GET /command_lamp?cmd=COLOR7 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:40] "GET /command_lamp?cmd=COLOR4 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:44] "GET /command_lamp?cmd=COLOR2 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:52] "GET /command_lamp?cmd=COLOR4 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:57] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:18:59] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:11] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:12] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:13] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:15] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:36] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:37] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:25:47] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:28:35] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:28:48] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:28:51] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:28:55] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:29:03] "GET /command_lamp?cmd=SPEED:8 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:29:06] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:30:27] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:30:35] "GET /command_lamp?cmd=COLOR1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:30:37] "GET /command_lamp?cmd=COLOR2 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:30:39] "GET /command_lamp?cmd=COLOR4 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.117.19 - - [29/Oct/2024 00:30:44] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec640db50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:03] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec41a1150>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec41f97d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec41674d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec4184a90>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:07] "GET /status?t=1730202109867 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:07] "GET /status?t=1730202109868 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:07] "GET /status?t=1730202109326 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 00:31:07] "GET /status?t=1730202109327 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:01] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:01] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:03] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:06] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:10] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:20] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:25] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:42:27] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:06] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:06] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:08] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:12] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:17] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:34] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:37] "GET /command_lamp?cmd=SPEED:8 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:38] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:40] "GET /command_lamp?cmd=SPEED:2 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:42] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:44] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:49] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:53] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:47:58] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:18] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:20] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:22] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:25] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:31] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:33] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:35] "GET /command_lamp?cmd=SPEED:8 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:36] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:51:40] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:54:48] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:54:52] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:54:55] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:54:58] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:01] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:04] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:07] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:17] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:18] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:20] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:55:24] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:11] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:14] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:18] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:23] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:26] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:29] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:33] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:40] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:42] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 12:58:45] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:40] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:41] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:44] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:51] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:57] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:01:59] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:02:00] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:02:03] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:45] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:48] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:52] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:55] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:57] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:58] "GET /command_lamp?cmd=SPEED:3 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:05:59] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:06:01] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:06:05] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:06:07] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:06:12] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:06:14] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:64.23.201.216 - - [29/Oct/2024 13:06:49] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:08:52] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:08:54] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:08:57] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:09:00] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:09:03] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:09:05] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:09:09] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:08] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:09] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:12] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:17] "GET /command_lamp?cmd=STROBE HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:20] "GET /command_lamp?cmd=SPEED:10 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:21] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:25] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:29] "GET /command_lamp?cmd=BRIGHTNESS:255 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:34] "GET /command_lamp?cmd=BRIGHTNESS:125 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:43] "GET /command_lamp?cmd=BRIGHTNESS:150 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:49] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:37.161.242.213 - - [29/Oct/2024 13:12:54] "GET /command_lamp?cmd=BRIGHTNESS:175 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff2949d910>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:00] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:00] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff2825d610>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff28256390>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:04] "GET /status?t=1730223663441 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:04] "GET /status?t=1730223663438 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:11] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:12] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.132 - - [29/Oct/2024 18:41:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.132 - - [29/Oct/2024 18:41:13] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.132 - - [29/Oct/2024 18:41:13] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.137 - - [29/Oct/2024 18:41:15] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.137 - - [29/Oct/2024 18:41:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.137 - - [29/Oct/2024 18:41:15] "GET /static/scripts.js HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff28257c90>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:85.18.30.132 - - [29/Oct/2024 18:41:17] "GET /status?t=1730223670623 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:18] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff2825d310>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:85.18.30.132 - - [29/Oct/2024 18:41:20] "GET /status?t=1730223670623 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:31] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:46] "GET /command_lamp?cmd=BRIGHTNESS:100 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:41:56] "GET /command_lamp?cmd=BRIGHTNESS:50 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:42:15] "GET /command_lamp?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:42:19] "GET /command_lamp?cmd=SPEED:1 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:42:24] "GET /command_lamp?cmd=BRIGHTNESS:100 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:42:33] "GET /command_lamp?cmd=BRIGHTNESS:150 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:42:41] "GET /command_lamp?cmd=BRIGHTNESS:175 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:09] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:14] "GET /command_lamp?cmd=BRIGHTNESS:0 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:15] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:17] "GET /command_lamp?cmd=BRIGHTNESS:0 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:28] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:46:49] "GET /command_lamp?cmd=BRIGHTNESS:175 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:01] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:19] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:21] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:25] "GET /command_lamp?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:31] "GET /command_lamp?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:34] "GET /command_lamp?cmd=COLOR1 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:36] "GET /command_lamp?cmd=COLOR2 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:38] "GET /command_lamp?cmd=COLOR3 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:40] "GET /command_lamp?cmd=COLOR7 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:44] "GET /command_lamp?cmd=COLOR8 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:45] "GET /command_lamp?cmd=COLOR7 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:49] "GET /command_lamp?cmd=COLOR4 HTTP/1.1" 200 -
+INFO:werkzeug:79.31.250.21 - - [29/Oct/2024 18:47:54] "GET /command_lamp?cmd=OFF HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:38] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:38] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:85.18.30.41 - - [06/Dec/2024 22:01:39] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.41 - - [06/Dec/2024 22:01:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.41 - - [06/Dec/2024 22:01:40] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:42] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:42] "GET /status?t=1733518902254 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:43] "GET /status?t=1733518902253 HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.38 - - [06/Dec/2024 22:01:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:45] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.38 - - [06/Dec/2024 22:01:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.38 - - [06/Dec/2024 22:01:45] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.38 - - [06/Dec/2024 22:01:46] "GET /status?t=1733518903392 HTTP/1.1" 200 -
+INFO:werkzeug:85.18.30.38 - - [06/Dec/2024 22:01:47] "GET /status?t=1733518903392 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:50] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:56] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:01:58] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+INFO:werkzeug:207.241.225.134 - - [06/Dec/2024 22:20:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:23] "[33mGET /server HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:23] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:23] "[33mGET /about HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+INFO:werkzeug:154.28.229.255 - - [06/Dec/2024 22:20:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /server-status HTTP/1.1[0m" 404 -
+INFO:werkzeug:154.28.229.113 - - [06/Dec/2024 22:20:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /login.action HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:24] "[33mGET /_all_dbs HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /s/034323e2733313e253e27383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:25] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:26] "[33mGET /info.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.18.197 - - [06/Dec/2024 22:20:26] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+INFO:werkzeug:154.28.229.115 - - [06/Dec/2024 22:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:104.164.173.23 - - [06/Dec/2024 22:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:154.28.229.255 - - [06/Dec/2024 22:20:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:104.164.173.23 - - [06/Dec/2024 22:20:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.75.132.208 - - [06/Dec/2024 22:21:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.75.132.208 - - [06/Dec/2024 22:21:26] "GET /static/script.js HTTP/1.1" 200 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:106.75.132.208 - - [06/Dec/2024 22:29:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:106.75.132.208 - - [06/Dec/2024 22:29:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:51:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:51:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:51:43] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:51:44] "GET /status?t=1733521903628 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:51:44] "GET /status?t=1733521903627 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:52:51] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:52:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [06/Dec/2024 22:52:51] "GET /static/scripts.js HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+Permission denied
+ * Serving Flask app 'app'
+ * Debug mode: off
+Permission denied
+ * Serving Flask app 'app'
+ * Debug mode: off
+Permission denied
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:09] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:09] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:09] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:15] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:15] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:34] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:35] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:08:36] "GET /command_Bajour?cmd=COLOR6 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:29] "GET /status?t=1733526568498 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:09:29] "GET /status?t=1733526568496 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:21] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:21] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:21] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:40] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:41] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:42] "GET /command_Bajour?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:53] "GET /command_Bajour?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:54] "GET /command_Bajour?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:56] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:10:58] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 00:11:05] "GET /command_Bajour?cmd=OFF HTTP/1.1" 200 -
+INFO:werkzeug:123.191.154.44 - - [07/Dec/2024 00:21:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:111.224.221.43 - - [07/Dec/2024 00:21:51] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:64.23.201.216 - - [07/Dec/2024 13:55:30] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+INFO:werkzeug:162.216.150.153 - - [07/Dec/2024 14:15:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:34.79.246.220 - - [07/Dec/2024 14:17:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:91.208.197.167 - - [07/Dec/2024 14:17:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:91.208.197.167 - - [07/Dec/2024 14:18:38] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:37] "GET /status?t=1733578296413 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:37] "GET /status?t=1733578296414 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:44] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:44] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:52] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:52] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:31:52] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:32:00] "GET /command_lamp?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:32:01] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:32:02] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:32:04] "GET /command_Bajour?cmd=COLOR0 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:33:38] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:33:38] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:33:38] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:33:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:34:11] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:34:11] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:34:11] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:37:53] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:37:53] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:37:53] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:37:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:05] "GET /command_Bajour?cmd=BRIGHTNESS:25 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:05] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:15] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:15] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:15] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:38:56] "GET /command_Bajour?cmd=ON HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:39:02] "GET /command_Bajour?cmd=BRIGHTNESS:255 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:39:11] "GET /command_Bajour?cmd=BRIGHTNESS:225 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:39:15] "GET /command_Bajour?cmd=BRIGHTNESS:100 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:39:16] "GET /command_Bajour?cmd=RAINBOW HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:39:28] "GET /command_Bajour?cmd=BRIGHTNESS:255 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:50] "GET /status?t=1733578969115 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:50] "GET /status?t=1733578969113 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:51] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:42:52] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:45:08] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:45:12] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:46:27] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 14:46:35] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 15:00:34] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:78.211.178.150 - - [07/Dec/2024 15:03:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:78.211.178.150 - - [07/Dec/2024 15:03:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:78.211.178.150 - - [07/Dec/2024 15:03:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:89.244.95.72 - - [07/Dec/2024 15:18:45] "[35m[1mGET / HTTP/1.0[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:199.45.154.151 - - [07/Dec/2024 16:31:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:199.45.154.151 - - [07/Dec/2024 16:31:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:199.45.154.151 - - [07/Dec/2024 16:31:45] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:199.45.154.151 - - [07/Dec/2024 16:31:45] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+INFO:werkzeug:64.23.201.216 - - [07/Dec/2024 16:32:07] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:33] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:33] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:33] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 152, in index
+    update_lcd()
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 101, in update_lcd
+    lcd.clear()
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 312, in clear
+    self.command(c.LCD_CLEARDISPLAY)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/lcd.py", line 382, in command
+    self._send_instruction(value)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/RPLCD/i2c.py", line 240, in _send_instruction
+    self.bus.write_byte(self._address, (c.RS_INSTRUCTION |
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/smbus2/smbus2.py", line 414, in write_byte
+    ioctl(self.fd, I2C_SMBUS, msg)
+OSError: [Errno 121] Remote I/O error
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:44:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:04] "GET /status?t=1733586303771 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:05] "GET /status?t=1733586303772 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:09] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:45:10] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 16:48:26] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:45.156.128.41 - - [07/Dec/2024 17:31:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 18:20:23] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 18:20:52] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 18:24:19] "GET /command?cmd=ON1 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:49] "GET /status?t=1733594565802 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:50] "GET /command?cmd=ON2 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:02:50] "GET /status?t=1733594565802 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:25:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:25:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:25:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:25:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:26:04] "GET /command?cmd=OFF2 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6c643bd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:26:04] "GET /status?t=1733595952386 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6c6c5d90>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:26:04] "GET /status?t=1733595952387 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:26:09] "GET /command?cmd=OFF1 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff5707e490>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff54e19c50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff54e53250>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:59] "GET /status?t=1733596075114 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:27:59] "GET /status?t=1733596075104 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:28:49] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:28:49] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:28:49] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:01] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:01] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:01] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff54e53b10>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff54e1a4d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:07] "GET /status?t=1733596263779 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:07] "GET /status?t=1733596263778 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:26] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:85.18.30.36 - - [07/Dec/2024 19:31:30] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:31:48] "[33mGET /logs HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff27f2e610>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:40:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:40:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:40:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff25cda8d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff25ccf750>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:40:52] "GET /status?t=1733596848274 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:40:52] "GET /status?t=1733596848273 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:20] "GET /lamp HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:20] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff27f2eb50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff25ce2690>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:21] "GET /status?t=1733596997981 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:21] "GET /status?t=1733596997980 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:23] "GET /Bajour HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:23] "[36mGET /static/styles_Bajour.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:23] "[36mGET /static/script_Bajour.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:43:31] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:44:23] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:44:24] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:44:27] "[33mGET /logs HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff25ccf8d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff25cf5dd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:44:29] "GET /status?t=1733597065288 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:44:29] "GET /status?t=1733597065290 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff66b9e490>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:51:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:51:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:51:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6494a9d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6493f790>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:51:39] "GET /status?t=1733597495913 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:51:39] "GET /status?t=1733597495901 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:17] "[33mGET /logs HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff66b92c90>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff64952810>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:19] "GET /status?t=1733597535234 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:52:19] "GET /status?t=1733597535233 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:04] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6496ca50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff64965ed0>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:07] "GET /status?t=1733597764433 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:56:07] "GET /status?t=1733597764431 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 19:57:26] "[33mGET /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:103.203.59.3 - - [07/Dec/2024 20:00:16] "GET / HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff8f46e490>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:02:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:02:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:02:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:02:59] "[33mGET /logs HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff8d1c2310>: Failed to establish a new connection: [Errno 113] No route to host'))
+ERROR:root:Errore durante il recupero dello stato: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff8d20d8d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:03:01] "GET /status?t=1733598177255 HTTP/1.1" 200 -
+INFO:werkzeug:87.5.137.240 - - [07/Dec/2024 20:03:01] "GET /status?t=1733598177257 HTTP/1.1" 200 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff18fdbe50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 411, in pin
+    pin = self.pins[info]
+          ~~~~~~~~~^^^^^^
+KeyError: PinInfo(number=11, name='GPIO17', names=frozenset({17, 'BCM17', 'BOARD11', 'WPI0', 'J8:11', 'GPIO17', '17'}), pull='', row=6, col=1, interfaces=frozenset({'gpio', '', 'spi', 'uart', 'dpi'}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 23, in <module>
+    display_control = OutputDevice(DISPLAY_PIN)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 108, in __call__
+    self = super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/output_devices.py", line 74, in __init__
+    super().__init__(pin, pin_factory=pin_factory)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/mixins.py", line 75, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 553, in __init__
+    pin = self.pin_factory.pin(pin)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 413, in pin
+    pin = self.pin_class(self, info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/lgpio.py", line 126, in __init__
+    lgpio.gpio_claim_input(
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 755, in gpio_claim_input
+    return _u2i(_lgpio._gpio_claim_input(handle&0xffff, lFlags, gpio))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 458, in _u2i
+    raise error(error_text(v))
+lgpio.error: 'GPIO busy'
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff767fbe50>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 411, in pin
+    pin = self.pins[info]
+          ~~~~~~~~~^^^^^^
+KeyError: PinInfo(number=11, name='GPIO17', names=frozenset({'BOARD11', 17, 'BCM17', 'J8:11', '17', 'WPI0', 'GPIO17'}), pull='', row=6, col=1, interfaces=frozenset({'gpio', '', 'uart', 'dpi', 'spi'}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 23, in <module>
+    display_control = OutputDevice(DISPLAY_PIN)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 108, in __call__
+    self = super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/output_devices.py", line 74, in __init__
+    super().__init__(pin, pin_factory=pin_factory)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/mixins.py", line 75, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 553, in __init__
+    pin = self.pin_factory.pin(pin)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 413, in pin
+    pin = self.pin_class(self, info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/lgpio.py", line 126, in __init__
+    lgpio.gpio_claim_input(
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 755, in gpio_claim_input
+    return _u2i(_lgpio._gpio_claim_input(handle&0xffff, lFlags, gpio))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 458, in _u2i
+    raise error(error_text(v))
+lgpio.error: 'GPIO busy'
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee14fa1d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 411, in pin
+    pin = self.pins[info]
+          ~~~~~~~~~^^^^^^
+KeyError: PinInfo(number=11, name='GPIO17', names=frozenset({17, 'GPIO17', 'BCM17', 'J8:11', 'BOARD11', 'WPI0', '17'}), pull='', row=6, col=1, interfaces=frozenset({'', 'uart', 'spi', 'dpi', 'gpio'}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 23, in <module>
+    display_control = OutputDevice(DISPLAY_PIN)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 108, in __call__
+    self = super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/output_devices.py", line 74, in __init__
+    super().__init__(pin, pin_factory=pin_factory)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/mixins.py", line 75, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 553, in __init__
+    pin = self.pin_factory.pin(pin)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 413, in pin
+    pin = self.pin_class(self, info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/lgpio.py", line 126, in __init__
+    lgpio.gpio_claim_input(
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 755, in gpio_claim_input
+    return _u2i(_lgpio._gpio_claim_input(handle&0xffff, lFlags, gpio))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 458, in _u2i
+    raise error(error_text(v))
+lgpio.error: 'GPIO busy'
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffebf9fb790>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed22eb790>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:29] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:85.18.30.7 - - [08/Dec/2024 12:44:30] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:33] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:85.18.30.40 - - [08/Dec/2024 12:44:35] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:45] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:44:48] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:46:07] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffed3d5b790>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:46:57] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:47:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:47:43] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:48:43] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:50:47] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 12:50:48] "[33mGET /lamp HTTP/1.1[0m" 404 -
+Terminated
+WARNING:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff4ab8abd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 13:09:53] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 13:11:16] "[33mGET / HTTP/1.1[0m" 404 -
+WARNING:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff61cf9d10>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 411, in pin
+    pin = self.pins[info]
+          ~~~~~~~~~^^^^^^
+KeyError: PinInfo(number=11, name='GPIO17', names=frozenset({'BOARD11', '17', 17, 'WPI0', 'GPIO17', 'BCM17', 'J8:11'}), pull='', row=6, col=1, interfaces=frozenset({'', 'uart', 'dpi', 'gpio', 'spi'}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Giovanni/Desktop/WebServerFiles/app.py", line 23, in <module>
+    display_control = OutputDevice(DISPLAY_PIN)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 108, in __call__
+    self = super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/output_devices.py", line 74, in __init__
+    super().__init__(pin, pin_factory=pin_factory)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/mixins.py", line 75, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/devices.py", line 553, in __init__
+    pin = self.pin_factory.pin(pin)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/pi.py", line 413, in pin
+    pin = self.pin_class(self, info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/gpiozero/pins/lgpio.py", line 126, in __init__
+    lgpio.gpio_claim_input(
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 755, in gpio_claim_input
+    return _u2i(_lgpio._gpio_claim_input(handle&0xffff, lFlags, gpio))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Giovanni/Desktop/WebServerFiles/new_venv/lib/python3.11/site-packages/lgpio.py", line 458, in _u2i
+    raise error(error_text(v))
+lgpio.error: 'GPIO busy'
+WARNING:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff9bff8fd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:18:33] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:18:52] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff073fb790>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:33:18] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:33:18] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:33:19] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:36:10] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:36:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:36:16] "[33mGET /LAMP HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:36:21] "[33mGET /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.26.36.40 - - [08/Dec/2024 14:48:42] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:118.26.36.40 - - [08/Dec/2024 14:48:44] code 400, message Bad HTTP/0.9 request type ('t3')
+INFO:werkzeug:118.26.36.40 - - [08/Dec/2024 14:48:44] "[31m[1mt3 12.1.2[0m" 400 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:49:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:101.36.108.158 - - [08/Dec/2024 14:49:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:101.36.108.158 - - [08/Dec/2024 14:49:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:101.36.108.158 - - [08/Dec/2024 14:49:33] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:101.36.108.158 - - [08/Dec/2024 14:49:34] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 14:51:27] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2024 15:27:11] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2024 15:27:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 15:28:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 15:28:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee420b790>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff49b9bfd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:03:15] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:03:17] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:03:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:03:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:03:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 17:09:01] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.249.76.130 - - [08/Dec/2024 17:30:10] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.249.75.133 - - [08/Dec/2024 17:30:11] "[33mHEAD /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.249.75.134 - - [08/Dec/2024 17:30:12] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.249.75.133 - - [08/Dec/2024 17:30:13] "[33mHEAD /lamp HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.249.76.132 - - [08/Dec/2024 17:30:13] "[33mHEAD /logs HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.46.73.110 - - [08/Dec/2024 17:36:47] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fffa84d4250>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.178.2 - - [08/Dec/2024 17:41:38] "[33mGET /admin/assets/js/views/login.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.178.2 - - [08/Dec/2024 17:41:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Errore durante il recupero dello stato dei dispositivi: HTTPConnectionPool(host='192.168.178.164', port=80): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff9486bfd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.178.165:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 18:05:35] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.5.137.240 - - [08/Dec/2024 18:05:36] "[33mGET /Bajour HTTP/1.1[0m" 404 -
+INFO:werkzeug:64.23.201.216 - - [08/Dec/2024 18:19:29] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
